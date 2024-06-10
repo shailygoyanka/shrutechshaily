@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: 991.98px) {
+    .navbar-collapse.show {
+        margin-left: 15px;
+    }
+}
 .hero{
     background-color: rgb(231, 242, 251);
 }
@@ -11,6 +16,7 @@
 }
 .btn-bg{
     background-color: rgb(1, 1, 60);
+    border: none;
 }
 
 .footer{
